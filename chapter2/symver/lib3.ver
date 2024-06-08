@@ -1,0 +1,17 @@
+# file: lib3.ver
+LIB_V1 {
+    global:
+        foo;
+    local:
+        *;
+};
+
+LIB_V2 {
+    global:
+        foo;
+} LIB_V1;
+
+LIB_V3 {
+    global:
+        foo;
+} LIB_V2;
