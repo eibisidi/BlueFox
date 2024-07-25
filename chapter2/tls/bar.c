@@ -1,0 +1,1 @@
+ __thread int tls_dyn_a = 0x66;
